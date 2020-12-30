@@ -18,8 +18,10 @@ display(){
 var pos = this.body.position;
 push();
 rectMode(CENTER);
-fill("red");
-rect(pos.x,pos.y+50,this.width,this.height);
+fill("brown");
+strokeWeight(1);
+stroke("green");
+rect(pos.x,pos.y,this.width,this.height);
 pop();
 
 }
